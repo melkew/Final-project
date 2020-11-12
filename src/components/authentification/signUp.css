@@ -1,0 +1,164 @@
+/* SIGN UP MODAL BUTTONS */
+.modal__button {
+	margin: 0px 15px;
+	padding: 3px 0;
+	font-size: 16px;
+}
+
+.modal__button:hover {
+	outline: none;
+}
+
+.modal__button:active {
+	border: none;
+	outline: none;
+}
+
+.modal__button:focus {
+	outline-color: transparent;
+	outline-style: none;
+}
+
+/* SIGN UP MODAL OPEN */
+.modal__button__login {
+	color: #fafaff;
+	border: solid 1px #181818;
+	background-color: #181818;
+	border: none;
+	font-weight: bold;
+}
+
+.modal__button__login:hover {
+	color: #00b8ff;
+}
+
+.modal__button__login:focus {
+	outline-color: transparent;
+	outline-style: none;
+}
+
+/* SIGN UP MODAL CLOSE */
+.modal__button__close {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	font-size: 18px;
+	border: solid 1px #d8d8d8;
+	color: #787878;
+	border: none;
+	background-color: #fafaff;
+	font-weight: bold;
+}
+
+.modal__button__close:hover {
+	color: #00b8ff;
+}
+
+/* FLEX WRAPPER */
+.form__flexwrapper {
+	min-height: 100%;
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* SIGN UP FORM */
+.form__div {
+	margin: auto;
+	box-sizing: border-box;
+	width: 50%;
+	padding: 30px 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 786px) {
+	.form__div {
+		padding: 5px;
+		width: 100%;
+	}
+}
+
+/* LOGO */
+.loginlogo__img {
+	width: 60px;
+	margin: 0 auto 10px auto;
+}
+
+/* LEGEND*/
+.form__legend {
+	color: #00b8ff;
+	font-size: 22px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+/* LABEL */
+.form__label {
+	color: #181818;
+	align-self: flex-start;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 20px 0 5px;
+}
+
+/* INPUT */
+.form__input {
+	color: #181818;
+	border: solid 1px #d8d8d8;
+	font-size: 16px;
+	width: 100%;
+	margin: 5px 0 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form__input:focus {
+	outline-color: transparent;
+	outline-style: none;
+}
+
+/* DIV CORRECT LENGTH MESSAGE */
+.div__correct__length {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* P CORRECT LENGTH MESSAGE */
+.p__correct__length {
+	color: red;
+	margin: 10px;
+}
+
+/* SUBMIT BUTTON */
+.submit__button {
+	color: #fafaff;
+	border: solid 1px #00b8ff;
+	background-color: #00b8ff;
+	margin: 20px 0;
+	padding: 20px 60px;
+	width: fit-content;
+	font-weight: bold;
+	margin-right: auto;
+	font-size: 16px;
+}
+
+.submit__button:hover {
+	color: #00b8ff;
+	background-color: #fafaff;
+}
+
+.submit__button:focus {
+	outline-color: transparent;
+	outline-style: none;
+}
+
+@media screen and (max-width: 786px) {
+	.submit__button {
+		padding: 20px;
+	}
+}

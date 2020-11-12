@@ -1,0 +1,123 @@
+/* CONTAINER */
+.container {
+	margin: auto;
+	width: 50%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+	.container {
+		width: 90%;
+	}
+}
+
+/* LEGEND */
+.contact__legend {
+	text-align: center;
+	color: #00b8ff;
+	font-size: 28px;
+	font-weight: bold;
+	margin: 0 auto 30px auto;
+}
+
+/* FLEX WRAPPER */
+.contactform__flexwrapper {
+	min-height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* DIV */
+.single__item {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0;
+}
+
+/* LABEL */
+.contact__label {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 5px 0;
+}
+
+/* INPUT AND TEXTAREA */
+.contact__input,
+.contact__textarea {
+	border: solid 1px #d8d8d8;
+	padding: 10px;
+}
+
+.contact__input:focus {
+	outline-color: transparent;
+	outline-style: none;
+}
+
+.contact__textarea:focus {
+	outline-color: transparent;
+	outline-style: none;
+}
+
+/* SUCCESS MESSAGE */
+.msg {
+	text-align: center;
+	margin: 0 auto 20px;
+	font-size: 18px;
+	color: green;
+	display: none;
+}
+
+.msgAppear {
+	display: block;
+}
+
+/* SUBMIT BUTTON */
+.contact__button {
+	color: #fafaff;
+	background-color: #00b8ff;
+	border: solid 1px #00b8ff;
+	margin: 20px 0 0 0;
+	padding: 20px 60px;
+	width: fit-content;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.contact__button:hover {
+	color: #00b8ff;
+	background-color: #fafaff;
+}
+
+.contact__button:focus {
+	outline-color: transparent;
+	outline-style: none;
+}
+
+/* EMAIL WRAPPER */
+.email__link__wrapper {
+	text-align: center;
+	margin: 10px auto 50px;
+	padding: 10px;
+}
+
+/* EMAIL LINK */
+.email__link {
+	color: #181818;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.email__link:hover {
+	color: #00b8ff;
+}
+
+.mail__icon {
+	padding: 5px;
+}

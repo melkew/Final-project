@@ -1,0 +1,29 @@
+.comment__ul {
+	/* border: 1px solid red*/
+}
+
+.comment__li {
+	border: 1px solid #d8d8d8;
+	padding: 20px;
+	margin: 5px;
+}
+
+.comment__author {
+	font-weight: bold;
+	margin-left: auto;
+	font-size: 16px;
+}
+
+.comment__text {
+	margin: 10px 0;
+	line-height: 1.2;
+}
+
+.codeblock__comment {
+	max-width: 100%;
+	margin: 10px;
+}
+
+.comment__time {
+	margin: 10px;
+}

@@ -1,0 +1,30 @@
+/* VOTE DIV */
+.vote__div {
+	padding: 0 20px 0 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/* VOTE DIV */
+.vote__wrapper {
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 10px 0 0;
+}
+
+.vote__wrapper span {
+	padding: 3px;
+}
+
+.vote__button:focus {
+	outline: none;
+}
+
+.vote__button:hover {
+	color: #00b8ff;
+	background-color: #828282;
+}

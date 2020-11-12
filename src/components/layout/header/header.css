@@ -1,0 +1,266 @@
+/* HEADER MAIN DIV  */
+.header__main {
+	background-color: #181818;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 40px;
+}
+
+@media screen and (max-width: 900px) {
+	.header__main {
+		flex-direction: column;
+		height: auto;
+	}
+}
+
+/* HEADER SUB DIV  */
+.header__sub {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 33.33%;
+	height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+	.header__sub {
+		justify-content: center;
+		margin: 20px;
+		padding: 10px;
+		width: 100%;
+	}
+}
+
+/* HEADER SUB DIV RIGHT */
+.header__sub__right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+	.header__sub__right {
+		justify-content: center;
+	}
+}
+
+/* NAV UL */
+.nav__ul {
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+	.nav__ul {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.nav__ul {
+		flex-direction: column;
+	}
+	.nav__ul li {
+		margin: 10px auto;
+	}
+}
+
+/* NAV LINK */
+.nav__link {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 5px 10px 5px 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fafaff;
+	text-decoration: none;
+	padding: 5px 20px 5px 5px;
+}
+
+.nav__link:hover {
+	color: #00b8ff;
+}
+
+/* HEADER IMG */
+.header__img {
+	width: 40px;
+	padding: 5px 5px 5px 10px;
+}
+
+@media screen and (max-width: 900px) {
+	.header__img {
+		padding: 5px 5px 5px 0;
+	}
+}
+
+.header__info {
+	color: #787878;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.header__info:hover {
+	color: #00b8ff;
+}
+
+/* SEARCHBAR INPUT */
+.search__button {
+	border: none;
+	background-color: #181818;
+	color: #fafaff;
+	font-size: 16px;
+}
+
+.search__button:hover {
+	color: #00b8ff;
+}
+
+.search__button:focus {
+	outline-color: transparent;
+	outline-style: none;
+}
+
+/* SEARCHBAR INPUT */
+.nav__input {
+	background-color: #181818;
+	width: 100%;
+	color: #fafaff;
+	border: none;
+	padding: 5px;
+	margin: 0;
+}
+
+.nav__input:hover {
+	color: #fafaff;
+}
+
+.nav__input:focus {
+	outline-color: transparent;
+	outline-style: none;
+}
+
+.nav__input::placeholder {
+	color: #787878;
+}
+
+/* BURGER MENU */
+#menuCheckbox {
+	display: none;
+}
+
+/* MODAL INFO */
+.modal__info {
+	max-width: 100vw;
+	min-height: 90vh;
+	margin: 40px;
+	border-radius: 5px;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fafaff;
+	line-height: 1.2;
+}
+
+.modal__info:focus {
+	outline-color: transparent;
+	outline-style: none;
+}
+
+/* MODAL INFO */
+.close__info {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	margin: 20px 20px 20px auto;
+	font-size: 18px;
+	font-weight: bold;
+	color: #787878;
+	background-color: #fafaff;
+	border: none;
+}
+
+.close__info:focus {
+	outline-color: transparent;
+	outline-style: none;
+}
+
+.close__info:hover {
+	color: #00b8ff;
+}
+
+/* MODAL INFO */
+.info__text {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 60%;
+	height: 100%;
+	color: #181818;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+	.info__text {
+		width: 90%;
+	}
+}
+
+.info__text p {
+	margin: 10px;
+}
+
+/* INFO SIGN UP BUTTON */
+.infologinbutton__wrapper {
+	margin: 50px auto 0 0;
+}
+
+.infologinbutton__wrapper button {
+	padding: 10px 30px;
+	margin: 0 10px;
+	border: solid 1px #00b8ff;
+	background-color: #00b8ff;
+	color: #fafaff;
+}
+
+.infologinbutton__wrapper button:hover {
+	background-color: #fafaff;
+	color: #00b8ff;
+}
+
+/* INFO SIGN UP BUTTON */
+.infologinbutton__wrapperlogin {
+	width: 100%;
+	margin: 20px auto 0 0;
+	color: #787878;
+}
+
+.infologinbutton__wrapperlogin button {
+	margin: 0 5px;
+	color: #282828;
+	background-color: #fafaff;
+}
+
+.infologinbutton__wrapperlogin button:hover {
+	color: #00b8ff;
+}
+
+/* MODAL INFO */
+.info__imgcodes {
+	width: 50px;
+	margin: 10px;
+}
+
+.info__title {
+	font-size: 28px;
+	font-weight: bold;
+	margin: 0 auto 50px 0;
+	color: #00b8ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

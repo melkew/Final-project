@@ -1,0 +1,144 @@
+/* MAIN CATEGORIES */
+.categories__main {
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	background-color: #282828;
+}
+
+@media only screen and (max-width: 900px) {
+	.categories__main {
+		width: 100%;
+	}
+}
+
+/* RESET FILTER */
+.postaction__link__resetfilter {
+	margin: 30px 10px 10px 10px;
+	padding: 10px;
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	color: #787878;
+	background-color: #282828;
+	border: none;
+	text-decoration: none;
+}
+
+.postaction__link__resetfilter:hover {
+	color: #00b8ff;
+}
+.postaction__link__resetfilter:focus {
+	outline-color: transparent;
+	outline-style: none;
+}
+
+.categories__ul {
+	display: flex;
+	height: auto;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.categories__li {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 16px;
+	margin: 6% 10px;
+	padding: 10px;
+	word-break: break-all;
+	cursor: pointer;
+}
+
+.categories__info {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	color: #fafaff;
+}
+
+.subcategory__name {
+	margin: 20px 10px 10px 30px;
+	padding: 5px 10px;
+	font-size: 16px;
+	font-weight: 100;
+	cursor: pointer;
+	color: #787878;
+}
+
+.subcategory__name:hover {
+	color: #fafaff;
+}
+
+.ul__icons {
+	padding: 0 15px 0 0;
+	font-size: 20px;
+}
+
+.li__icon {
+	display: flex;
+}
+
+.categoryC {
+	display: none;
+}
+.categoryJs {
+	display: none;
+}
+.categoryJava {
+	display: none;
+}
+.categoryPython {
+	display: none;
+}
+.categoryRust {
+	display: none;
+}
+
+.categoryCOpen {
+	display: block;
+}
+.categoryJsOpen {
+	display: block;
+}
+.categoryJavaOpen {
+	display: block;
+}
+.categoryPythonOpen {
+	display: block;
+}
+.categoryRustOpen {
+	display: block;
+}
+
+.button__arrow {
+	display: flex;
+	width: 100%;
+	height: 20px;
+	font-size: 16px;
+	background-color: #282828;
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
+	color: #ffffff;
+	font-weight: bold;
+
+	text-decoration: none;
+}
+.button__arrow p {
+	margin-right: auto;
+}
+.button__arrow:hover {
+	color: #00b8ff;
+}
+.button__arrow:active {
+	position: relative;
+	top: 1px;
+}
+.button__arrow:focus {
+	outline-color: transparent;
+	outline-style: none;
+}
